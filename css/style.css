@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+#headerPart{
+    padding: 50px 0;
+    
+}
+.headerFlex{
+    display: flex;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 60%;
+    text-align: center;
+    margin-top: 10px;
+}
+.icon{
+    width: 25%;
+    margin-top: 10px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: black;
+    padding: 0 37px;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.icon{
+    gap: 18px;
+    display: flex;
+    justify-content: end;
+
+}
